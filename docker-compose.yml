@@ -8,6 +8,6 @@ services:
     environment:
       - NODE_ENV=production
       - COMPOSE_BAKE=true
-      - PORT=5000
+      - PORT=3000
     ports:
-      - "5000:5000"
+      - "3000:3000"
